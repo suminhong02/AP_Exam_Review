@@ -55,7 +55,7 @@ public class Sound {
         for(int k = 0; k<temp.length; k++){
             temp[k] = samples[k+count];
         }
-       samples = temp;
+        samples = temp;
     }
 
     /** accessor method used for testing purposes - Not part of original program */
