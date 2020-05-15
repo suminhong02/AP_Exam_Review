@@ -39,12 +39,10 @@ class ReviewCollector
         /* to be implemented in part (a) */
         reviewList.add(prodReview);
         String name = prodReview.getName();
-        for(int i = 0; i<productList.size(); i++){
             if(!productList.contains(name)){
                 productList.add(name);
             }
 
-        }
     }
 
 
